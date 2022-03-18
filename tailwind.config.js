@@ -5,11 +5,14 @@ module.exports = {
   ],
   theme: {
   },
+  darkmode: 'class',
   variants: {},
   plugins: [
     require('daisyui'),
   ],
   daisyui: {
+    prefix: "",
+    darkTheme: "dark",
     themes: [
       /* Add Daisy theme here*/
     ],
