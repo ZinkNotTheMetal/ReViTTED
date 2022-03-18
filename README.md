@@ -12,6 +12,7 @@ Starter Template using the following libraries:
 * ESLint (E)
   * Airbnb rules configured
 * daisyUI (D)
+* Running in Docker
 
 ## React
 

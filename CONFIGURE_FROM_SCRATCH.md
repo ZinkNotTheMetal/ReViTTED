@@ -61,6 +61,8 @@
 * Okta does not support v6 yet but there is an open issue
 
 11. Add Build & Runtime variables
-    1. Modify vite-env.d.ts to add build variable
+    1. Modify vite-env.d.ts to add build variables
     2. Add runtime-config.js
-    3. Add runtime.ts
+    3. Add runtime-config.template.js
+
+12. Add Docker support (Dockerfile)
