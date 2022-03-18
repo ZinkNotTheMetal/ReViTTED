@@ -56,6 +56,11 @@
    ```
 
 10. Add React Router DOM (v6)
-   * Note that there have been some issues the major upgrade to version 6.
-   * Okta does not support v6 yet but there is an open issue
 
+* Note that there have been some issues the major upgrade to version 6.
+* Okta does not support v6 yet but there is an open issue
+
+11. Add Build & Runtime variables
+    1. Modify vite-env.d.ts to add build variable
+    2. Add runtime-config.js
+    3. Add runtime.ts

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import { Configuration } from './runtime'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -41,6 +42,12 @@ function App() {
             Vite Docs
           </a>
         </p>
+
+        <p>Build Variables</p>
+        <p className="text-sm">Build Version: {import.meta.env.VITE_BUILD_VERSION}</p>
+
+        <p>Runtime Variable</p>
+        <p className="text-sm">API URL: {Configuration.API_URL}</p>
       </header>
     </div>
   )

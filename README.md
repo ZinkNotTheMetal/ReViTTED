@@ -5,6 +5,7 @@
 Starter Template using the following libraries:
 
 * React (Re)
+   * React Router DOM (v6)
 * Vite  (Vi)
 * TypeScript (T)
 * Tailwind (T)
